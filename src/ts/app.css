@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.markdown h1 {
+  @apply border-black border-b border-l-0 text-3xl;
+}
+
+.markdown h2 {
+  @apply border-black border-b border-l-0 text-2xl;
+}
+
+.markdown h3 {
+  @apply border-black border-b border-l-0 text-xl;
+}
+
+.markdown ul {
+  @apply list-disc pl-10;
+}

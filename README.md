@@ -1,6 +1,20 @@
-# typescript-webpack-react-template
+# typescript-react-markdown-example
 
-[![biuld](https://github.com/hironomiu/typescript-webpack-react-template/actions/workflows/build.yml/badge.svg)](https://github.com/hironomiu/typescript-webpack-react-template/actions/workflows/build.yml)
+## react-router-dom
+
+```
+yarn add react-router-dom @types/react-router-dom
+```
+
+## react-markdown
+
+```
+yarn add react-markdown react-syntax-highlighter
+yarn add --dev @types/react-syntax-highlighter
+yarn add remark-gfm
+```
+
+---
 
 Typescript + Webpack + Babel + ESLint + Jest + React(+Redux Toolkit) + TailwindCSS
 
