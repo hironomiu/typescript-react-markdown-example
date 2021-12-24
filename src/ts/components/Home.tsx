@@ -19,7 +19,7 @@ const Home: FC = () => {
             value={markdown}
           />
         </div>
-        <div className="markdown whitespace-pre-wrap overflow-scroll break-words h-600 w-600 text-start border rounded">
+        <div className="markdown leading-none tracking-normal whitespace-pre-wrap overflow-scroll break-words h-600 w-600 text-start border rounded">
           <ReactMarkdown plugins={[gfm]}>{markdown}</ReactMarkdown>
         </div>
       </div>

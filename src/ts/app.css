@@ -3,17 +3,35 @@
 @tailwind utilities;
 
 .markdown h1 {
-  @apply text-3xl;
+  @apply text-4xl text-black;
 }
 
 .markdown h2 {
-  @apply text-2xl;
+  @apply text-3xl text-black;
 }
 
 .markdown h3 {
-  @apply text-xl;
+  @apply text-2xl text-black;
+}
+
+.markdown h4 {
+  @apply text-xl text-black;
+}
+
+.markdown a {
+  @apply text-blue-600;
+}
+.markdown a:hover {
+  @apply underline;
 }
 
 .markdown ul {
-  @apply list-disc pl-10;
+  @apply list-disc pl-6;
+}
+
+.markdown blockquote {
+  @apply p-2 mx-2 my-2 bg-gray-100 mb-4 border-l-4 border-gray-400  rounded-r-lg;
+}
+.markdown blockquote > p {
+  @apply mb-0;
 }
