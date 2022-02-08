@@ -26,8 +26,47 @@
 }
 
 .markdown ul {
-  @apply list-disc pl-6;
+  list-style: disc;
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
 }
+
+.markdown ul ul {
+  list-style: circle;
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+}
+
+.markdown ul ul ul {
+  list-style: square;
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+}
+
+.markdown ul ul ul ul {
+  list-style: circle;
+  list-style-type: circle;
+  margin: 0;
+  padding: 0;
+}
+/* .markdown ul {
+  @apply list-disc ml-6 h-24;
+}
+
+.markdown ul ul {
+  @apply list-disc ml-6 h-10;
+}
+
+.markdown ul ul ul {
+  @apply list-disc ml-6 h-8;
+} */
+
+/* .markdown ul li {
+  @apply h-24;
+} */
 
 .markdown blockquote {
   @apply p-2 mx-2 my-2 bg-gray-100 mb-4 border-l-4 border-gray-400  rounded-r-lg;
