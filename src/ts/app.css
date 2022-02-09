@@ -25,7 +25,7 @@
   @apply underline;
 }
 
-.markdown ul {
+/* .markdown ul {
   list-style: disc;
   list-style-type: disc;
   margin: 0;
@@ -51,18 +51,18 @@
   list-style-type: circle;
   margin: 0;
   padding: 0;
-}
-/* .markdown ul {
-  @apply list-disc ml-6 h-24;
+} */
+.markdown ul {
+  @apply list-disc ml-6 h-4;
 }
 
 .markdown ul ul {
-  @apply list-disc ml-6 h-10;
+  @apply list-disc ml-6 h-8;
 }
 
 .markdown ul ul ul {
-  @apply list-disc ml-6 h-8;
-} */
+  @apply list-disc ml-6 h-0;
+}
 
 /* .markdown ul li {
   @apply h-24;
